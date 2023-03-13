@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background-color: #7286d3;
+}
+
+.navbar .navbar-nav .nav-item a {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+}
+.navbar .btnJoin {
+  background-color: #8ea7e9;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.navbar .btnJoin:hover {
+  background-color: #b1b2ff;
+}
+
+.jumbotron {
+  background-image: url("images/jeremy-sallee-lgrM1t4rxWQ-unsplash.jpg");
+  background-size: cover;
+
+  height: 80vh;
+}
