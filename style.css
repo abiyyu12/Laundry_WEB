@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins";
+  background-color: #eaeaea;
 }
 
 .navbar {
@@ -11,13 +12,17 @@ body {
   font-weight: 400;
   color: #fff;
 }
-.navbar .btnJoin {
+.btnJoin {
   background-color: #8ea7e9;
   text-transform: uppercase;
+  position: relative;
+  z-index: 1;
   border-radius: 100px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.navbar .btnJoin:hover {
+.btnJoin:hover {
   background-color: #b1b2ff;
 }
 
@@ -48,7 +53,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   font-weight: 400;
-  margin-top: 20%;
+  margin-top: 250px;
   position: relative;
   z-index: 1;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
@@ -68,10 +73,48 @@ body {
   font-weight: 200;
 }
 
+.about-konten {
+  padding: 30px;
+}
+
+.about-konten p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+#about h1 {
+  margin-bottom: 35px;
+}
+
+#about h1::after {
+  content: "";
+  display: block;
+  border-bottom: #000 solid 2px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+#about .icons-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .icons-about .icon-about {
+  margin: 0 20px;
+}
+
+#about .icons-about .icon-about p {
+  margin-top: 5px;
+  text-align: center;
+  text-indent: 0;
+}
+
 @media (max-width: 720px) {
   .head-jumbotron {
     font-size: 35px;
-    margin-top: 130px;
+
+    margin-top: 200px;
   }
 
   .head-jumbotron-2 {
