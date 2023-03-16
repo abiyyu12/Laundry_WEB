@@ -83,12 +83,14 @@ body {
 }
 
 #about h1,
-#services h1 {
+#services h1,
+#kontak h1 {
   margin-bottom: 35px;
 }
 
 #about h1::after,
-#services h1::after {
+#services h1::after,
+#kontak h1::after {
   content: "";
   display: block;
   border-bottom: #000 solid 2px;
