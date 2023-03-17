@@ -2,7 +2,9 @@ body {
   font-family: "Poppins";
   background-color: #eaeaea;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   background-color: #7286d3;
 }
@@ -130,6 +132,67 @@ body {
 
 #services .card {
   margin-bottom: 20px;
+}
+
+#kontak .contact-2 {
+  background-color: #fff;
+}
+
+#kontak .contact-2 img {
+  margin-top: 120px;
+}
+
+#kontak .row .map {
+  width: 100%;
+  object-fit: cover;
+}
+
+#kontak .contact-2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+#kontak .contact-2 h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#kontak .contact-2 a {
+  text-decoration: none;
+}
+footer {
+  background-color: #7286d3;
+  text-align: center;
+  padding: 1rem 0 1rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1.4rem;
+  text-decoration: none;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: #b1b2ff;
+}
+footer .links {
+  margin-bottom: 2rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+  color: #fff;
 }
 
 @media (max-width: 720px) {
