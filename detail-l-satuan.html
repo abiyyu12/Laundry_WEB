@@ -83,104 +83,53 @@
       </div>
     </nav>
     <!-- Contnent -->
-    <div class="container" style="margin-top: 5rem; color: white">
-      <!-- Button trigger modal -->
-      <button
-        type="button"
-        class="btn btn-primary mb-3"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-      >
-        PESAN JASA
-        <i data-feather="send"></i>
-      </button>
-      <div
-        class="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog text-black">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">Info</h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <form action="" method="post">
-              <div class="modal-body">
-                Anda yakin memesan jasa ini?,Kurir akan segera datang ke alamat
-                anda,jika anda menyetujui.
-                <input type="hidden" name="" />
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-bs-dismiss="modal"
-                >
-                  BATAL
-                </button>
-                <button type="button" class="btn btn-primary">
-                  PESAN JASA
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- Cards -->
+    <div class="container" style="margin-top: 5rem; height: 70vh">
       <div class="row">
-        <div class="col-lg-6">
-          <div class="card mb-4 bg-white text-light text-black">
-            <h5 class="card-header">Nomor Laundry : LS0001</h5>
-            <div class="card-body">
-              <h5 class="card-title">Tanggal Laundry : 2023-23-1</h5>
-              <div class="alert alert-success" style="max-width: 600px">
-                Status : A simple info alert—check it out!
-              </div>
-              <a href="detail-l-satuan.html" class="btn btn-info"
-                >DETAIL LAUNDRY</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card mb-4 bg-white text-light text-black">
-            <h5 class="card-header">Nomor Laundry : LS0001</h5>
-            <div class="card-body">
-              <h5 class="card-title">Tanggal Laundry : 2023-23-1</h5>
-              <div class="alert alert-danger" style="max-width: 600px">
-                Status : A simple info alert—check it out!
-              </div>
-              <a
-                href="formOutput.php?kd_tiket=<?= $temp['kd_tiket']; ?>"
-                class="btn btn-info"
-                >DETAIL LAUNDRY</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card mb-4 bg-white text-light text-black">
-            <h5 class="card-header">Nomor Laundry : LS0001</h5>
-            <div class="card-body">
-              <h5 class="card-title">Tanggal Laundry : 2023-23-1</h5>
-              <div class="alert alert-warning" style="max-width: 600px">
-                Status : A simple primary alert—check it out!
-              </div>
-              <a
-                href="formOutput.php?kd_tiket=<?= $temp['kd_tiket']; ?>"
-                class="btn btn-info"
-                >DETAIL LAUNDRY</a
-              >
+        <div class="col-sm-9 col-md-7 col-lg-8 mx-auto">
+          <div style="background-color: white; margin-top: 25px">
+            <h5 class="text-center p-3">Transaksi Laundry : LS0001</h5>
+            <div class="table-responsive" style="margin-top: 15px">
+              <table class="table table-light p-2">
+                <thead>
+                  <tr class="text-center">
+                    <th>#</th>
+                    <th>Cucian</th>
+                    <th>Jumlah</th>
+                    <th>Harga</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="text-center">
+                    <td>2</td>
+                    <td>Jas</td>
+                    <td>2</td>
+                    <td>20.000</td>
+                  </tr>
+                  <tr class="text-center">
+                    <td>3</td>
+                    <td>Jas</td>
+                    <td>2</td>
+                    <td>20.000</td>
+                  </tr>
+                  <tr class="text-center">
+                    <td>4</td>
+                    <td>Jas</td>
+                    <td>2</td>
+                    <td>20.000</td>
+                  </tr>
+                  <tr class="text-center">
+                    <td>5</td>
+                    <td>Jas</td>
+                    <td>2</td>
+                    <td>20.000</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">Total Harga :</td>
+                    <td class="text-center">200.000.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="http://" class="btn btn-primary"> Kembali</a>
             </div>
           </div>
         </div>
